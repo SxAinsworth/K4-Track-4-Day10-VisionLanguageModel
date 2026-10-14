@@ -22,12 +22,12 @@
 ## E4, E5
 - [x] E4 `data_size` 0.1 / 1.0 (gốc E3): `e4_data_0.1.json`, `e4_data_1.0.json`; CI95 + paired bootstrap
 - [x] E5: hàm reward + 11 test (`python -m pytest lab -q`), GRPO 60 bước có log
-- [ ] E5: suy luận + `e5.json` + so sánh với SFT (session bị ngắt trước bước này)
+- [ ] E5: suy luận + `e5.json` + so sánh với SFT — không chạy (session bị ngắt, quyết định dừng ở GRPO + log)
 
 ## Báo cáo và nộp
 - [x] `REPORT.md`: bảng E0–E4 và 10 câu hỏi bằng số thật
 - [x] Ảnh minh hoạ: `pred_examples.png` (3 đúng + 3 sai), `per_class_errors.png`, `data_samples.png`, `loss_*.png`
-- [ ] Điền họ tên trong `REPORT.md`
+- [x] Điền họ tên trong `REPORT.md`
 - [x] Không sửa `scripts/` và `tests/`; không commit `data/`, `work/`, `.env`, trọng số
 - [x] `python scripts/check_submission.py`: 0 FAIL
 - [x] Repo GitHub công khai, ≥ 5 commit
